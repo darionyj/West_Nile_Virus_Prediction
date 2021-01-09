@@ -19,3 +19,9 @@ We discovered that the time of the day where the sun is out was where the presen
 We also explored into deep learning and neural networks. However, our neural network did not outperform the selected model, likely due to the fact it had low complexity. We decided not to further develop the deep learning model since it is not easily interpretable and we had to keep within the limited timeframe of this project.
 
 
+
+
+## Conclusion
+
+
+
