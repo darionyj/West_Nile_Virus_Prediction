@@ -18,10 +18,38 @@ We discovered that the time of the day where the sun is out was where the presen
 
 We also explored into deep learning and neural networks. However, our neural network did not outperform the selected model, likely due to the fact it had low complexity. We decided not to further develop the deep learning model since it is not easily interpretable and we had to keep within the limited timeframe of this project.
 
+In this project, there are a total of six notebooks:
+1) 01a Train EDA Cleaning
+2) 01b Spray EDA Cleaning
+3) 01c Weather EDA Cleaning
+4) 02 Combined EDA Preparation
+5) 03 Preprocessing Modeeling Evaluation
+6) 04 Kaggle Predictions
 
+## Contents:
 
+1. [Datasets Used](#1-Datasets-Used)
+2. [Exploratory Data Analysis & Data Cleaning](#2-Exploratory-Data-Analysis-&-Data-Cleaning)
+3. [Modeling & Evaluation](#3-Modeling-&-Evaluation)
+4. [Additional Modeling](#4-Additional-Modeling)
+5. [Cost Benefit Analysis](#5-Cost-Benefit-Analysis)
+6. [Conclusion and Recommendations](#6-Conclusion-and-Recommendations)
+7. [Python Library Used](#7-Python-Library-Used)
 
-## Conclusion
+### 1. Datasets Used 
+The following datasets were created and used during this project:
+- train
+- spray
+- weather
+- train_final
+- spra
+### 2. Exploratory Data Analysis & Data Cleaning
+### 3. Modeling & Evaluation
+### 4. Additional Modeling
+### 5. Cost Benefit Analysis
+### 6. Conclusion & Recommendation
+### 7. Python Library Used
+
 
 
 
