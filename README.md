@@ -41,13 +41,53 @@ The following datasets were created and used during this project:
 - train
 - spray
 - weather
+- samplesubmission
 - train_final
-- spra
+- train_spray_cleaned
+- train_spray_final
+- trap_location
+- test
+- submission_predictions
+- spray_cleaned
+- spray_final
+- weather_final
+- combined_final
+- combined_training
+- X_train
+
 ### 2. Exploratory Data Analysis & Data Cleaning
-### 3. Modeling & Evaluation
-### 4. Additional Modeling
+In this section, we undergo studying, understanding and feature engineering of the datasets. After that, datasets were combined. The following actions are taken:
+- Analyzing the train data and removing features that are not needed. Feature Engineering of species and distance of traps' locations and weather station.
+- Analyzing the spray and trap data. Feature Engineering of trap_sprayed feature
+- Analyzing the weather data and removing features that are not need. Creating weekly average and time-lagged features for all remaning weather conditions. Feature Engineering of Codesum feature.
+- Combined all datasets together into one. Analyzing the combined dataset. Feature Engineering of traps feature. Drop features that will not be used and prepare for modeling.
+
+### 3. Modelling & Evaluation
+In this section, we used the combined dataset on the different models and perform evaluation after training them. 
+Models used:
+- Logistic Regression
+- Bernoulli Naive Bayes
+- Random Forest Classifier
+- ExtraTrees Classifier
+- AdaBoost Classifier
+- Gradient Boost Classifier
+- Support Vector Classifier
+
+Evaluation Metrics used:
+- ROC-AUC score
+- F1-Score
+- Recall
+- Precision
+- Accuracy
+
+
+### 4. Additional Modelling
+In this project, we attempt deep learning using neural network as well.
+
 ### 5. Cost Benefit Analysis
+
 ### 6. Conclusion & Recommendation
+
 ### 7. Python Library Used
 
 
